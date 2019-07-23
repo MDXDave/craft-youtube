@@ -11,7 +11,7 @@ namespace mdxdave\craft-youtube\twigextensions;
 use mdxdave\craft-youtube\YouTubeEmbed;
 use Craft;
 
-class YouTubeEmbedTwigExtension extends \Twig_Extension
+class YouTubeTwigExtension extends \Twig_Extension
 {
     public function getName()
     {
