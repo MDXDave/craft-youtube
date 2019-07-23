@@ -41,7 +41,7 @@
     "extra": {
         "name": "YouTube Embedder",
         "handle": "craft-youtube",
-        "schemaVersion": "1.1.0",
+        "schemaVersion": "1.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/mdxdave/craft-youtube/master/CHANGELOG.md",
