@@ -1,0 +1,50 @@
+{
+    "name": "mdxdave/craft-youtube",
+    "description": "YouTube Embedder",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "timeago"
+    ],
+    "support": {
+        "docs": "https://github.com/mdxdave/craft-youtube/blob/master/README.md",
+        "issues": "https://github.com/mdxdave/craft-youtube/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MDXDave",
+            "homepage": "https://mdxdave.de"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.1.29"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "mdxdave\\craft-youtube\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "YouTube Embedder",
+        "handle": "craft-youtube",
+        "schemaVersion": "1.1.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/mdxdave/craft-youtube/master/CHANGELOG.md",
+        "class": "mdxdave\\craft-youtube\\YouTubeEmbed"
+    }
+}
